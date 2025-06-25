@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+# ⚔️ Jedi Task Terminal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Star Wars-themed todo application that transforms daily productivity into an immersive Jedi training experience. Complete missions across the galaxy while progressing from Youngling to Jedi Master!
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Core Functionality
 
-## Expanding the ESLint configuration
+-   **🎯 Dynamic Mission Generation**: Auto-generates authentic Star Wars tasks using SWAPI data
+-   **✨ Custom Task Creation**: Add your own Jedi missions alongside generated ones
+-   **🏆 Jedi Ranking System**: Progress from Youngling → Padawan → Jedi Knight → Jedi Master
+-   **⚔️ Animated Lightsaber Progress Bar**: Visual progress tracking with color-changing effects
+-   **🎨 Random Color Themes**: 4 unique themes (Jedi Blue, Sith Red, Mace Windu Purple, Yoda Green)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Visual Experience
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+-   **🌌 Animated Particle Background**: Flying stars with theme-based colors
+-   **✨ Smooth Hover Effects**: Interactive task cards with glowing animations
+-   **🎊 Completion Animations**: Visual feedback when tasks are completed
+-   **📱 Responsive Design**: Adapts perfectly to any screen size
+-   **🖤 Star Wars Aesthetic**: Dark space theme with authentic galactic styling
+
+### Task Categories
+
+-   **🔍 Missions**: Investigate planets, escort characters, establish outposts
+-   **📚 Training**: Master starship controls, lightsaber combat, meditation
+-   **🤝 Diplomacy**: Negotiate treaties, protect allies, build alliances
+-   **🏺 Exploration**: Survey systems, retrieve artifacts, discover Force-sensitives
+-   **🔧 Maintenance**: Repair starships, maintain equipment
+-   **📜 Study**: Document cultures, learn alien languages, research species
+
+## 🛠️ Tech Stack
+
+-   **React 18** with **TypeScript** for type-safe component development
+-   **CSS-in-JS** for dynamic theming and animations
+-   **SWAPI Integration** for authentic Star Wars data
+-   **Modern React Hooks** (useState, useEffect, useCallback)
+-   **Responsive Grid Layout** with CSS Grid and Flexbox
+
+## 🤖 Built with Claude Artifacts
+
+This application was designed and developed entirely using **Claude Artifacts**, demonstrating the power of AI-assisted development. The project showcases:
+
+-   Complete TypeScript implementation with full type safety
+-   Advanced React patterns and hooks
+-   Complex animations and theming systems
+-   Professional code architecture and documentation
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/beatrisilieva/jedi-todo-app-with-claude-artifacts.git
+cd jedi-todo-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎮 How to Play
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **🎯 Generate Missions**: Click "Generate New Missions" to get 10 random Jedi tasks
+2. **✨ Add Custom Tasks**: Create your own missions using the input field
+3. **✅ Complete Tasks**: Click on any task to mark it complete
+4. **📈 Track Progress**: Watch your lightsaber progress bar ignite as you advance
+5. **🏆 Achieve Mastery**: Reach 100% completion to become a Jedi Master!
