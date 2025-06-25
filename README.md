@@ -2,6 +2,8 @@
 
 A Star Wars-themed todo application that transforms daily productivity into an immersive Jedi training experience. Complete missions across the galaxy while progressing from Youngling to Jedi Master!
 
+Play at: [https://claude.ai/public/artifacts/ddc76b0a-6d7a-41d8-80de-257151cf511e](https://claude.ai/public/artifacts/ddc76b0a-6d7a-41d8-80de-257151cf511e)
+
 ## 🌟 Features
 
 ### Core Functionality
